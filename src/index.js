@@ -33,3 +33,10 @@ fetch(API.BASE + API.USERS)
   .then(response => {
     console.log('FETCH', getTime(), response);
   });
+
+const request = new XMLHttpRequest();
+request.addEventListener('load', function() {
+  console.log('XHR', getTime(), JSON.parse(request.responseText));
+});
+request.open('GET', API.BASE + API.USERS);
+request.send();
