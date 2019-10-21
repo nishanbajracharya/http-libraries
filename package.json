@@ -2,9 +2,13 @@
   "name": "http-libraries",
   "description": "A collection of HTTP libraries for comparison and reference.",
   "version": "0.0.1",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "src/index.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +28,11 @@
     "axios": "^0.19.0",
     "ky": "^0.15.0",
     "superagent": "^5.1.0",
+    "superagent-prefix": "^0.0.2",
+    "superagent-use": "^0.1.0",
     "wretch": "^1.5.5"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
