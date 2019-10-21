@@ -4,11 +4,14 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "devDependencies": {
+    "eslint": "^6.5.1",
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "lint": "eslint src/**",
+    "lint-fix": "eslint src/** --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
