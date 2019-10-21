@@ -1,0 +1,29 @@
+{
+  "name": "http-libraries",
+  "description": "A collection of HTTP libraries for comparison and reference.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanbajracharya/http-libraries.git"
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishanbajracharya/http-libraries/issues"
+  },
+  "homepage": "https://github.com/nishanbajracharya/http-libraries#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ky": "^0.15.0",
+    "superagent": "^5.1.0",
+    "wretch": "^1.5.5"
+  }
+}
