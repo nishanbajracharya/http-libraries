@@ -5,23 +5,31 @@ import axios from './services/axios';
 import wretch from './services/wretch';
 import superagent from './services/superagent';
 
+import { getTime } from './utils/time';
+
 axios.get(API.USERS).then(response => {
-  console.log('AXIOS', response.data);
+  console.log('AXIOS', getTime(), response.data);
 });
 
 superagent.get(API.USERS).then(response => {
-  console.log('SUPERAGENT', response.body);
+  console.log('SUPERAGENT', getTime(), response.body);
 });
 
 ky.get(API.USERS.replace('/', ''))
   .then(response => response.json())
   .then(response => {
-    console.log('KY', response);
+    console.log('KY', getTime(), response);
   });
 
 wretch
   .url(API.USERS)
   .get()
   .json(response => {
-    console.log('WRETCH', response);
+    console.log('WRETCH', getTime(), response);
+  });
+
+fetch(API.BASE + API.USERS)
+  .then(response => response.json())
+  .then(response => {
+    console.log('FETCH', getTime(), response);
   });
