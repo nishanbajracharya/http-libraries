@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/nishanbajracharya/http-libraries#readme",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "ky": "^0.24.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
