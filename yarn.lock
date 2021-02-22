@@ -3286,10 +3286,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-ky@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/ky/-/ky-0.24.0.tgz#337e534a7f47c12476988eef3cb968daef318349"
-  integrity sha512-/vpuQguwV30jErrqLpoaU/YJAFALrUkqqWLILnSoBOj5/O/LKzro/pPNtxbLgY6m4w5XNM6YZ3v7/or8qLlFuw==
+ky@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/ky/-/ky-0.27.0.tgz#ecc9b195b9e1573ad6762a126bb3601d3bbd5b6c"
+  integrity sha512-pgaBuB6wI9DdMSOZBVh2WkcbkAdEG5AUEWuNhtThu6FLIpDbzqzC/fSMmqr/j1wwQyW3SP3KGau7EbzWNkQ/yg==
 
 levn@^0.4.1:
   version "0.4.1"
