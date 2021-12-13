@@ -35,7 +35,7 @@
     "superagent": "^6.1.0",
     "superagent-prefix": "^0.0.2",
     "superagent-use": "^0.1.0",
-    "wretch": "^1.7.5"
+    "wretch": "^1.7.7"
   },
   "browserslist": [
     "last 2 Chrome versions"
