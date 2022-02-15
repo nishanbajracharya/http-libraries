@@ -29,7 +29,7 @@
   "homepage": "https://github.com/nishanbajracharya/http-libraries#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "ky": "^0.28.5",
+    "ky": "^0.29.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "superagent": "^6.1.0",
