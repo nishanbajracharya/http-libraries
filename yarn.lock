@@ -5774,10 +5774,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-wretch@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/wretch/-/wretch-1.7.5.tgz#81dd6a6d12130bf4cc300d5a90d8f515d3d1de80"
-  integrity sha512-gfErt6B+B5hJDQ/svHg+8aONEYTjo6Y0C/jXcJRDLezqSrW6qUvftqm1HJaP1F/Y2QGy2kJXeH8FD++O54LeGg==
+wretch@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/wretch/-/wretch-2.1.2.tgz#7899fadeedd1207a557b9d5b0287c29c0813bdfb"
+  integrity sha512-O8zX0+VttTVXDu76+LWmQRjVU8g/IgZuaGu20WUYg2wkv7uoFU6I3gDcLxzKIYe4gpPE5aVCvRcNXMv9ruP4nA==
 
 ws@^5.1.1:
   version "5.2.3"
