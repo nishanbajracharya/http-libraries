@@ -32,7 +32,7 @@
     "ky": "^0.28.5",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "superagent": "^6.1.0",
+    "superagent": "^8.0.6",
     "superagent-prefix": "^0.0.2",
     "superagent-use": "^0.1.0",
     "wretch": "^1.7.5"
